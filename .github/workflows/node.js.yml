@@ -44,7 +44,7 @@ jobs:
           server: ftp.iamratul.com
           username: demo-ftp@iamratul.com
           password: ${{ secrets.FTP_PASSWORD}}
-          local-dir: /home/runner/work/deploy-demo/deploy-demo/dist
+          local-dir: ./dist/
        
     
     
