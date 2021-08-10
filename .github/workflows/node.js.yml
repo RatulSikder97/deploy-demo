@@ -39,7 +39,7 @@ jobs:
           name: dist
           path: dist
        - name: Sync file to ftp
-         uses: SamKrikland/FTP-Deploy-Action@4.0.0
+         uses: SamKirkland/FTP-Deploy-Action@4.1.0
          with:
           server: ftp.iamratul.com
           username: demo-ftp@iamratul.com
