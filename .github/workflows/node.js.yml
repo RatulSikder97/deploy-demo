@@ -45,7 +45,6 @@ jobs:
           username: demo-ftp@iamratul.com
           password: ${{ secrets.FTP_PASSWORD}}
           local-dir: ./dist/docker-practice/
-          server-dir: public_html/
 
 
 
