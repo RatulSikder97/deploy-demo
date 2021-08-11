@@ -45,7 +45,7 @@ jobs:
           username: iamratul@dev.blog.iamratul.com
           password: ${{ secrets.FTP_PASSWORD}}
           local-dir: ./dist/docker-practice/
-          server-dir: dev.blog.iamratul.com/
+          server-dir: ./
 
 
 
