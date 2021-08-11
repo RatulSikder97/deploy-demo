@@ -42,10 +42,10 @@ jobs:
          uses: SamKirkland/FTP-Deploy-Action@4.1.0
          with:
           server: ftp.iamratul.com
-          username: iamratul
+          username: iamratul@dev.blog.iamratul.com
           password: ${{ secrets.FTP_PASSWORD}}
           local-dir: ./dist/docker-practice/
-          server-dir: blog.iamratul.com/
+          server-dir: dev.blog.iamratul.com/
 
 
 
